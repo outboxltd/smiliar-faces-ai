@@ -6,8 +6,8 @@ import torch
 from torchvision import transforms
 import cv2
 
-st.title("👨🏽‍💻 AI Faces similarity search - use AI to identify matching faces 🧑🏽‍💻")
-st.subheader("Developed by Yuval Avidani with ❤️ to helo the Israeli people")
+st.title("👨🏽‍💻 AI-Powered Face similarity search - use AI to identify matching faces 🧑🏽‍💻")
+st.subheader("Developed by Yuval Avidani with ❤️ to help our Israeli people")
 st.caption("Please note: This app is only an estimation and is not a replacement in any way to human work.")
 
 uploaded_file1 = st.file_uploader("Choose an image...", type=["jpg", "png", "gif"])
