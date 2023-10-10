@@ -9,7 +9,7 @@ import cv2
 st.title("👨🏽‍💻 AI-Powered Face similarity search - use AI to identify matching faces 🧑🏽‍💻")
 st.subheader("Developed by Yuval Avidani with ❤️ to help our Israeli people")
 st.caption("Please note: This app is only an estimation and is not a replacement in any way to human work.")
-
+st.subheader("----- Upload 2 facial images and check if it is similar or not -----")
 uploaded_file1 = st.file_uploader("Choose an image...", type=["jpg", "png", "gif"])
 uploaded_file2 = st.file_uploader("Choose another image...", type=["jpg", "png", "gif"])
 
@@ -79,6 +79,6 @@ if uploaded_file1 is not None and uploaded_file2 is not None:
 
         # You may want to adjust the threshold based on your requirements
         if cosine_similarity.item() > 0.55:
-            st.success("The faces are identical.")
+            st.success("The faces are similar.")
         else:
-            st.error("The faces are not identical.")
+            st.error("The faces are not similar.")
