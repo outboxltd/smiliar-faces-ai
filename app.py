@@ -9,7 +9,7 @@ import cv2
 st.title("👨🏽‍💻 AI-Powered Face similarity search - use AI to identify matching faces 🧑🏽‍💻")
 st.subheader("Developed by Yuval Avidani with ❤️ to help our Israeli people")
 st.caption("Please note: This app is only an estimation and is not a replacement in any way to human work.")
-st.subheader("----- Upload 2 facial images and check if it is similar or not -----")
+st.subheader("--> Upload 2 facial images and check if it is similar or not <--")
 uploaded_file1 = st.file_uploader("Choose an image...", type=["jpg", "png", "gif"])
 uploaded_file2 = st.file_uploader("Choose another image...", type=["jpg", "png", "gif"])
 
